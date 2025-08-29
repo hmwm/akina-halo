@@ -44,6 +44,7 @@ checkstyle {
 repositories {
     mavenCentral()
 
+    maven { url 'https://maven.aliyun.com/repository/public' }
     maven { url = 'https://repo.spring.io/milestone' }
     maven { url = 'https://s01.oss.sonatype.org/content/repositories/snapshots' }
 }
