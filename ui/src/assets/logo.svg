@@ -1,47 +1,32 @@
-<svg width="2144" height="877" viewBox="0 0 2144 877" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Akina logo with cherry blossom">
+<svg viewBox="0 0 2144 877" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Akina logo with cherry blossom" preserveAspectRatio="xMidYMid meet">
   <title>Akina — Logo with Cherry Blossom</title>
   <defs>
-    <!-- 渐变：淡粉色 -->
-    <linearGradient id="pinkGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FBCFE8"/> <!-- 浅粉 -->
-      <stop offset="100%" stop-color="#F472B6"/> <!-- 深粉 -->
+    <!-- 渐变：紫色 -->
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="90%" stop-color="#A78BFA"/> <!-- 浅紫 -->
+      <stop offset="100%" stop-color="#7C3AED"/> <!-- 深紫 -->
     </linearGradient>
     <style>
       .wordmark {
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans SC", "Microsoft YaHei", Arial, sans-serif;
+      font-family: Inter, "Noto Sans SC", "PingFang SC", Arial, sans-serif;
       font-weight: 800;
       letter-spacing: 0.01em;
       }
     </style>
   </defs>
 
-  <!-- 主 LOGO 文案 -->
-  <text x="400" y="540" class="wordmark" font-size="360" fill="url(#pinkGrad)">
-    Akina
+  <!-- 主 LOGO 文案（放大） -->
+  <text x="0" y="560" class="wordmark" font-size="720" fill="url(#purpleGrad)">
+    AKINA
   </text>
 
-  <!-- 樱花图案 (简化版五瓣花) -->
+  <!-- 樱花图案 (简化版五瓣花)，按 Halo 画布居中调整 -->
   <g transform="translate(1500, 260) scale(0.6)">
-    <circle cx="0" cy="0" r="40" fill="url(#pinkGrad)" opacity="0.6"/>
-    <path d="M0 -120 
-             C 30 -100, 60 -60, 0 -40 
-             C -60 -60, -30 -100, 0 -120 Z"
-          fill="url(#pinkGrad)" />
-    <path d="M120 0 
-             C 100 30, 60 60, 40 0 
-             C 60 -60, 100 -30, 120 0 Z"
-          fill="url(#pinkGrad)" />
-    <path d="M0 120 
-             C -30 100, -60 60, 0 40 
-             C 60 60, 30 100, 0 120 Z"
-          fill="url(#pinkGrad)" />
-    <path d="M-120 0 
-             C -100 -30, -60 -60, -40 0 
-             C -60 60, -100 30, -120 0 Z"
-          fill="url(#pinkGrad)" />
-    <path d="M-85 -85 
-             C -65 -65, -30 -30, 0 -60 
-             C -30 -90, -65 -95, -85 -85 Z"
-          fill="url(#pinkGrad)" />
+    <circle cx="0" cy="0" r="40" fill="url(#purpleGrad)" opacity="0.6"/>
+    <path d="M0 -120 C 30 -100, 60 -60, 0 -40 C -60 -60, -30 -100, 0 -120 Z" fill="url(#purpleGrad)" />
+    <path d="M120 0 C 100 30, 60 60, 40 0 C 60 -60, 100 -30, 120 0 Z" fill="url(#purpleGrad)" />
+    <path d="M0 120 C -30 100, -60 60, 0 40 C 60 60, 30 100, 0 120 Z" fill="url(#purpleGrad)" />
+    <path d="M-120 0 C -100 -30, -60 -60, -40 0 C -60 60, -100 30, -120 0 Z" fill="url(#purpleGrad)" />
+    <path d="M-85 -85 C -65 -65, -30 -30, 0 -60 C -30 -90, -65 -95, -85 -85 Z" fill="url(#purpleGrad)" />
   </g>
 </svg>
