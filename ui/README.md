@@ -2,11 +2,11 @@
 
 <p align="center">
     <a href="https://www.halo.run" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://www.halo.run/logo" alt="Halo logo" />
+        <img width="100" src="https://www.akina.run/logo" alt="Akina logo" />
     </a>
 </p>
 
-> Halo 2.0 的管理端项目（原 halo-admin）
+> Akina 2.0 的管理端项目（原 halo-admin）
 
 <p align="center">
 <a href="https://github.com/halo-dev/console/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/halo-dev/console.svg?style=flat-square" /></a>

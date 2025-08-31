@@ -60,16 +60,16 @@ springBoot {
     buildInfo {
         properties {
             artifact = 'halo'
-            name = 'halo'
+            name = 'akina'
         }
     }
 }
 
 bootJar {
-    archiveBaseName = 'halo'
+    archiveBaseName = 'akina'
     manifest {
-        attributes 'Implementation-Title': 'Halo Application',
-                'Implementation-Vendor': 'Halo OSS Team'
+        attributes 'Implementation-Title': 'Akina Application',
+                'Implementation-Vendor': 'Akina Team'
     }
 }
 

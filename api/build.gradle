@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'run.halo.app'
-description = 'API of halo project, connecting by other projects.'
+description = 'API of akina project, connecting by other projects.'
 
 tasks.withType(JavaCompile).configureEach {
     options.release = 21

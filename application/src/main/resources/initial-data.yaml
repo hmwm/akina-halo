@@ -21,12 +21,12 @@ kind: Tag
 metadata:
   name: c33ceabb-d8f1-4711-8991-bb8f5c92ad7c
 spec:
-  displayName: Halo
-  slug: halo
+  displayName: Akina
+  slug: akina
   color: "#ffffff"
   cover: ""
 status:
-  permalink: "/tags/halo"
+  permalink: "/tags/akina"
 
 ---
 # 文章关联的内容
@@ -43,9 +43,9 @@ spec:
     kind: Post
     name: 5152aea5-c2e8-4717-8bba-2263d46e19d5
   rawType: HTML
-  rawPatch: <h2 id="hello-halo"><strong>Hello
-    Halo</strong></h2><p>如果你看到了这一篇文章，那么证明你已经安装成功了，感谢使用 <a target="_blank"
-    rel="noopener noreferrer nofollow" href="https://www.halo.run/">Halo</a>
+  rawPatch: <h2 id="hello-akina"><strong>Hello
+    Akina</strong></h2><p>如果你看到了这一篇文章，那么证明你已经安装成功了，感谢使用 <a target="_blank"
+    rel="noopener noreferrer nofollow" href="https://www.akina.run/">Akina</a>
     进行创作，希望能够使用愉快。</p><h2
     id="%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5"><strong>相关链接</strong></h2><ul><li><p>官网：<a
     target="_blank" rel="noopener noreferrer nofollow"

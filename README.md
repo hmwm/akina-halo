@@ -1,10 +1,10 @@
 <p align="center">
     <a href="https://www.halo.run" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://www.halo.run/logo" alt="Halo logo" />
+        <img width="100" src="https://www.akina.run/logo" alt="Akina logo" />
     </a>
 </p>
 
-<p align="center"><b>Halo</b> [ˈheɪloʊ]，强大易用的开源建站工具。</p>
+<p align="center"><b>Akina</b> [əˈkiːnə]，强大易用的开源建站工具。</p>
 <p align="center">
 <a href="https://github.com/halo-dev/halo/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/halo-dev/halo.svg?style=flat-square&include_prereleases" /></a>
 <a href="https://hub.docker.com/r/halohub/halo"><img alt="Docker pulls" src="https://img.shields.io/docker/pulls/halohub/halo?style=flat-square" /></a>
@@ -50,7 +50,7 @@ docker run -d --name halo -p 8090:8090 -v ~/.halo2:/root/.halo2 halohub/halo:2.2
 
 ## 专业版
 
-相比于社区版，Halo 专业版为用户提供了大量增强功能及技术支持服务，增强功能包括短信验证码注册登录、全站私有化、LDAP 登录、三方账号登录及自定义 LOGO 等。 [点击查看专业版详细介绍](https://www.lxware.cn/halo)。
+相比于社区版，Akina 专业版为用户提供了大量增强功能及技术支持服务，增强功能包括短信验证码注册登录、全站私有化、LDAP 登录、三方账号登录及自定义 LOGO 等。 [点击查看专业版详细介绍](https://www.lxware.cn/akina)。
 
 ## 生态
 
