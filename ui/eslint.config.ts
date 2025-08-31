@@ -9,7 +9,7 @@ import pluginVue from "eslint-plugin-vue";
 export default defineConfigWithVueTs(
   {
     name: "app/global-ignores",
-    ignores: ["**/dist/**", "**/node_modules/**", "packages/api-client/src/"],
+    ignores: ["**/dist/**", "**/node_modules/**", "**/build/**", "packages/api-client/src/"],
   },
 
   pluginVue.configs["flat/recommended"],
