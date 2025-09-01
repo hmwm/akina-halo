@@ -862,6 +862,83 @@ core:
       title: 主题设置
     custom_templates:
       default: 默认模版
+    development:
+      title: 主题开发
+      menu: 主题开发
+      basic_info: 基本信息
+      theme_name: 主题名称
+      display_name: 显示名称
+      version: 版本
+      author: 作者
+      description: 描述
+      settings: 主题设置
+      layout: 布局方式
+      theme_style: 主题风格
+      card_style: 卡片样式
+      show_heat: 显示热度
+      show_user_level: 显示用户等级
+      enable_comments: 启用评论
+      colors: 颜色配置
+      primary_color: 主色调
+      secondary_color: 辅助色
+      background_color: 背景色
+      card_background: 卡片背景
+      text_color: 文字颜色
+      validate: 验证
+      preview: 预览
+      save: 保存
+      save_success: 保存成功
+      save_failed: 保存失败
+      validation:
+        name_required: 主题名称不能为空
+        display_name_required: 显示名称不能为空
+        version_format: 版本号格式不正确
+        color_format: {color} 颜色格式不正确
+        description_short: 描述过短，建议添加更详细的描述
+        success: 验证通过
+        failed: 验证失败
+        error: 验证出错
+      editor:
+        title: 代码编辑器
+        menu: 代码编辑器
+        files: 文件
+        new_file: 新建文件
+        current_file: 当前文件
+        language: 语言
+        encoding: 编码
+        line_ending: 行尾
+        tab_size: 制表符大小
+        unsaved_changes: 未保存的更改
+        saved: 已保存
+        enter_code: 输入代码...
+        line_numbers: 行号
+        save_current_file: 保存当前文件？
+        file_load_failed: 文件加载失败
+        file_save_success: 文件保存成功
+        file_save_failed: 文件保存失败
+        html_structure: HTML结构不完整
+        css_syntax: CSS语法错误
+        js_syntax: JavaScript语法错误
+        yaml_syntax: YAML语法错误
+      preview:
+        title: 实时预览
+        menu: 实时预览
+        preview_mode: 预览模式
+        device_preset: 设备预设
+        last_update: 最后更新
+        refresh: 刷新
+        fullscreen: 全屏
+        exit_fullscreen: 退出全屏
+        theme_preview: 主题预览
+        generating_preview: 生成预览中...
+        no_preview: 暂无预览
+        generate_preview: 生成预览
+        preview_info: 预览信息
+        mode: 模式
+        size: 尺寸
+        loading: 加载中
+        ready: 就绪
+        preview_generate_failed: 预览生成失败
   menu:
     title: 菜单
     empty:
